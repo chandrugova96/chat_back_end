@@ -1,0 +1,27 @@
+{
+  "name": "doodleblue_chat_back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Chandru G",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/jwt": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^11.0.0",
+    "glob": "^7.2.0",
+    "hapi-boom-decorators": "^4.1.2",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6",
+    "qs": "^6.10.3",
+    "socket.io": "^4.4.1",
+    "underscore": "^1.13.2",
+    "winston": "^3.4.0"
+  }
+}
